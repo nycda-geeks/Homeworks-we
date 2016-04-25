@@ -1,0 +1,51 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url(./wolf.jpg) center repeat;
+
+}
+img {
+	max-width: 150px;
+    height: auto;
+}
+.container{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+
+
+
+.leftsidebar{
+	height: 500px;
+	width: 25%;
+	background-color: yellow;
+	float: left;
+}
+
+.main{
+	height: 650px;
+	float: left;
+	width: 50%;
+	background-color: grey;
+}
+
+.rightsidebar{
+	height: 650px;
+	float: left;
+	width: 25%;
+	background-color: black;
+}
+
+.closingbar{
+	height: 125px;
+	float: right;
+	width: 75%;
+	background-color: brown;
+}
+
