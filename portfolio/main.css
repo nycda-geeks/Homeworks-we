@@ -19,9 +19,52 @@ img {
 	text-align: center;
 }
 
+.knop {
+	padding-top: 20px;
+}
+
+.knop ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+.knop ul li a {
+	display: block;
+	width: 67px;
+	background-color: #e67e22;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+
+}
 
 
-.leftsidebar{
+.knop ul li a:hover {
+	background-color: green;
+
+}
+
+li {
+	border: 3px;
+	border-color: black;
+}
+
+.highlight {
+	background-color: purple !important;
+}
+
+/*
+.knop ul li a:active {
+	background-color: purple;
+	}
+*/
+
+.href {
+	text-align: center;
+}
+
+.leftsidebar {
 	height: 500px;
 	width: 25%;
 	background-color: red;

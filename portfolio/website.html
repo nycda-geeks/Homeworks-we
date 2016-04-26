@@ -13,12 +13,14 @@
 
 	<div class="container">
 		<h1>Portfolio</h1>
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#news">Bio</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#about">About</a></li>
-		</ul>
+		<div class="knop">
+			<ul>
+				<li><a  href="#home">Home</a></li>
+				<li><a  href="#news">Bio</a></li>
+				<li><a  href="#contact">Contact</a></li>
+				<li><a  href="#about">About</a></li>
+			</ul>
+		</div>
 	</div>
 
 	<div class="leftsidebar">leftsidebar"
@@ -35,8 +37,29 @@
 
 
 
+<script src="jquery-2.2.3.min.js"></script>
 
 
+
+
+<script type="text/javascript">
+
+$ (document).ready(function() {
+	console.log ( "Document is loaded")
+
+
+
+	$( ".knop ul li a" ).click(function() {
+		$ ( this ).toggleClass( "highlight");
+ 
+});
+	/*$ (".container").fadeIn(4000, function () {
+		$ ("a").fadeIn(4000)
+
+	})
+	*/
+})
+</script>
 </body>
 
 
