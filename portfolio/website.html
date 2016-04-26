@@ -15,10 +15,10 @@
 		<h1>Portfolio</h1>
 		<div class="knop">
 			<ul>
-				<li><a  href="#home">Home</a></li>
-				<li><a  href="#news">Bio</a></li>
-				<li><a  href="#contact">Contact</a></li>
-				<li><a  href="#about">About</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#news">Bio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about">About</a></li>
 			</ul>
 		</div>
 	</div>
@@ -37,37 +37,42 @@
 
 
 
-<script src="jquery-2.2.3.min.js"></script>
+	<script src="jquery-2.2.3.min.js"></script>
 
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script type="text/javascript">
 
-
-
-<script type="text/javascript">
-
-$ (document).ready(function() {
-	console.log ( "Document is loaded")
-
-
-
-	$( ".knop ul li a" ).click(function() {
-		$ ( this ).toggleClass( "highlight");
- 
-});
-	/*$ (".container").fadeIn(4000, function () {
-		$ ("a").fadeIn(4000)
-
-	})
-	*/
-})
-</script>
+	$ (document).ready(function() {
+		console.log ( "Document is loaded")
+		$(" li a").click(function(){
+			$(this).toggleClass('highlight');
+			$(' li a.highlight').not(this).removeClass('highlight');
+			
+		});
+		$ ("li a").click(function(){
+			$( this ).toggle( "bounce", { times: 3 }, "slow",function (){
+				$ ( this ).show()
+			});
+		});
+	});
+	</script>
 </body>
 
 
 
+$(' li a.highlight').not(this).removeClass('highlight');
+$(this).toggleClass('highlight');
+})
 
 
+//	$( ".some li a" ).click(function() {
+//	$ ( this ).toggleClass( "highlight").siblings().removeClass('highlight');
+//	});
+// $ (".knop ul li a").click(function(){
+// 	$( this ).toggle( "bounce", { times: 3 }, "slow",function (){
+// 		$ ( this ).show()
+// 	});
 
 
-
-
+// });
 </html>
