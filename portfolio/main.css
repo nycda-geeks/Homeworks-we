@@ -84,12 +84,14 @@ li {
 
 h3 {
 	text-align: center;
+	padding-top: 10px;
 }
 
 h2 {
 	text-align: left;
 	padding-left: 35px;
 	font-family: italic;
+	padding-top: 15px;
 }
 
 .closingbar p {
