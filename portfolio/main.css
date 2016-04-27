@@ -40,16 +40,7 @@ img {
 	text-align: center;
 
 }
-.leftsidebar ul li a {
-	display: none;
-	width: 67px;
-	background-color: #1abc9c;
-	padding: 10px 20px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
 
-}
 
 .knop ul li a:hover {
 	background-color: #ecf0f1;
@@ -76,6 +67,25 @@ li {
 	background-color: red;
 	float: left;
 	position: fixed;
+	background: url(./leftbar.jpg) center repeat;
+	font-size: 100%;
+}
+.leftone {
+	background-color: gold;
+	height: 200px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10px;
+
+
+}
+
+.lefttwo{
+	background-color: blue;
+	height: 200px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 25px;
 }
 
 .main{
