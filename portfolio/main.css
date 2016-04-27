@@ -14,6 +14,10 @@ img {
 	max-width: 150px;
     height: auto;
 }
+
+h1 {
+	text-col
+}
 .container{
 	width: 100%;
 	height: 150px;
@@ -93,6 +97,9 @@ li {
 	float: right;
 	width: 50%;
 	background-color: silver;
+	background: url(poolpic.jpg) center ;
+	background-size: 70%;
+	background-repeat: no-repeat;
 }
 
 .rightsidebar{
@@ -100,8 +107,30 @@ li {
 	float: right;
 	width: 25%;
 	background-color: grey;
+	background: url(trying.jpg) center repeat;
 }
 
+.rightone {
+	height: 200px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 25px;
+	background-color: white;
+	background:rgba(255,255,255,0.8);
+}
+
+.rightone p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.righttwo {
+	height: 200px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 25px;
+	background-color: white;
+}
 
 h3 {
 	text-align: center;
@@ -135,6 +164,20 @@ h2 {
 .closingbar a {
 	padding-right: 10px;
 	padding-bottom: 50px;
+}
+
+.closingbar img {
+	float: right;
+	padding-right: 30px;
+}
+
+.githubpic {
+	float: right;
+}
+
+.githubpic img {
+	float: right;
+	padding-right: 30px;
 }
 
 .facebook {
